@@ -26,9 +26,7 @@ public class MyMapNode<K, V> implements INode<K>{
         this.key=key;
     }
 
-
     public INode<K>getNext() {
-        // TODO Auto-generated method stub
         return next;
     }
 
@@ -36,11 +34,9 @@ public class MyMapNode<K, V> implements INode<K>{
         return value;
     }
 
-
     public void setValue(V value) {
         this.value=value;
     }
-
 
     public void setNext(INode<K> next) {
         this.next =(MyMapNode<K, V>) next;
